@@ -1,0 +1,41 @@
+body {
+	background-color: #F2F2F2;
+}
+
+#header {
+    width: 1076px;
+    height: 51px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header-wrapper {
+    background: #343a40 !important;
+    min-width: 976px;
+}
+
+#header .boards_for_askme {
+	margin-right: 40px;
+}
+
+#header .boards_for_search {
+	padding-top: 8px;
+	float:left;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+#header .boards_for_nav {
+    display: block;
+    padding-top: 8px;
+    background: #343a40 !important;
+    float: left;
+}
+
+div[class^=col]{
+    background: #8CC7D9;
+    border: 1px solid #6B6ACD;
+}
+
+
