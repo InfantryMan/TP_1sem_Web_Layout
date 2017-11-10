@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   		<meta name="description" content="">
+    	<meta name="author" content="">
+
+		<title>AskMigranov</title>
+
+		<!-- Bootstrap core CSS -->
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">-->
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+		<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>-->
+
+    	<!-- Custom styles for this template -->
+    	<link rel="stylesheet" href="static/css/main.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+
+			<a class="navbar-brand" style="margin-left: 8%" href="#">AskMigranov</a> 
+
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault" style="margin-left: 100px">
+				<form class="form-inline my-2 my-lg-0" >
+			 		<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+		    
+
+		  <!--	<ul class="navbar-nav mr-auto" style="margin-left: 50px">
+		          <li class="nav-item active">
+		            <a class="nav-link btn btn-primary btn my-2 my-sm-0 ask-button" href="#">ASK!<span class="sr-only">(current)</span></a>
+		          </li>
+		        </ul> -->
+		        <ul class="navbar-nav mr-auto">
+		        	<li class="nav-item active">
+		        		<a class="nav-link btn btn-primary btn my-2 my-sm-0 ask-button-top" href="#">ASK!<span class="sr-only">(current)</span></a>
+		        	</li>
+		        </ul>
+		    </div>
+		    <div id="dropdown-user" class="dropdown-user">
+			    <a href="#">
+			        <img class="avatar" src="./images/papich.jpg" alt="avatar">
+			    </a>
+
+			    <div class="full_name">
+				    <a href="#" class="username">
+	                    EvilArthas
+	                </a>
+			    </div>
+			    
+			    <ul class="navbar-nav mr-auto">
+		          	<li class="nav-item active">
+		            	<a class="nav-link account-actions" href="#">settings</a>
+		          	</li>
+		         	<li class="nav-item active">
+		            	<a class="nav-link account-actions" href="#">log out</a>
+		          	</li>
+		        </ul>
+			    	<!--<a href="#" class="settings">Settings</a>
+			    	<a href="#" class="settings">Log out</a> -->
+
+		    </div>
+	  	</nav>
+
+	  	
+		<div class="container main-offset">
+			<div class="row row-offcanvas row-offcanvas-right">
+				<div class="col-12 col-md-9">
+					<div class="row">
+						<div class="col-lg-2">
+							<h2>Settings:</h2>
+						</div>
+						<div class="col-lg-3 name-of-user">
+							<h2>Dr. Pepper</h2>
+						</div>
+			        </div><!--/row-->
+			        <form action="" method = GET class="settings_form">
+
+			                	<div class="form-group">
+  									<label for="login">Login:</label>
+  									<input type="text" class="form-control" id="login" placeholder="EvilArthas">
+								</div>
+
+			                	<div class="form-group">
+  									<label for="email">Email:</label>
+  									<input type="text" class="form-control" id="email" placeholder="EvilArthas@mail.ru">
+								</div>
+
+			                	<div class="form-group">
+  									<label for="nickname">Nickname:</label>
+  									<input type="text" class="form-control" id="nickname" placeholder="EvilArthas">
+								</div>
+
+								<div class="form-group">
+  									<label for="avatar">Upload avatar:</label>
+  									<img class="avatar" src="./images/papich.jpg" alt="avatar">
+								</div>
+
+								<div class="form-group">
+  									<label for="path"></label>
+  									<input type="text" id="path" class="form-control aye" placeholder="c:\avatar.jpg">
+  									<button type="button" class="btn btn-primary-outline">Choose</button>
+								</div>
+
+
+				                <input type = submit value = "Save" class = "btn btn-success ask-button-down"></td>
+
+		              		</form>
+				</div>
+
+			    <div class="col-6 col-md-3 blog-sidebar additional-offset">
+			        <div class="sidebar-module sidebar-module-inset">
+			        	<div class="sidebar-module">
+					        <h4>Popular tags</h4>
+					            <a href="#" class="second-tag">Python</a>
+					            <a href="#" class="first-tag">PERL</a>
+					            <a href="#" class="third-tag">CSS</a>
+					            <a href="#" class="other-tag">html</a>
+					            <a href="#" class="other-tag">C++</a>
+					            <a href="#" class="first-tag">PostgreSQL</a>
+					            <a href="#" class="third-tag">Tarantool</a>
+					            <a href="#" class="other-tag">Bootstrap</a>
+					            <a href="#" class="other-tag">JavaScript</a>
+				        </div>
+
+				        <div class="sidebar-module" style="margin-top: 20px">
+					        <h4>Best members</h4>
+					        <ol class="list-unstyled">
+					            <li><a href="#" class="member">GT</a></li>
+					            <li><a href="#" class="member">PISTON</a></li>
+					            <li><a href="#" class="member">Xanax</a></li>
+					            <li><a href="#" class="member">Poponkin</a></li>
+					            <li><a href="#" class="member">DM</a></li>
+					            <li><a href="#" class="member">RP</a></li>
+					        </ol>
+				        </div>
+			        </div><!-- /.blog-sidebar -->
+			    </div>
+	        </div><!--/span-->
+		    <hr>
+		    <footer>
+	        	<p>&copy; RM 2017</p>
+	        </footer>
+    	</div><!--/container-->
+
+  	</body>
+</html>
